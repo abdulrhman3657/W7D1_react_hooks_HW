@@ -51,10 +51,6 @@ function Home() {
     setSalary("")
     setDescription("")
 
-    // setGOSIregestered("")
-    // setCheckDisability("")
-    // setExp("")
-
   }
 
   return (
