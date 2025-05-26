@@ -54,12 +54,12 @@ function Home() {
   }
 
   return (
-    <div className="p-3 lg:flex flex-col justify-center items-center bg-gray-600">
+    <div className="p-3 lg:flex flex-col justify-center items-center bg-blue-50">
 
-    <h1 className="lg:text-xl font-bold py-3 text-white">Staff Engineer - Payments Screening - Riyadh</h1>
+    <h1 className="lg:text-xl font-bold py-3">Staff Engineer - Payments Screening - Riyadh</h1>
 
 
-    <div className="flex flex-col items-start gap-3 bg-gray-200 rounded-xl p-3 lg:w-6/10">
+    <div className="flex flex-col items-start gap-5 bg-gray-200 rounded-xl p-5 lg:w-6/10">
       <div className="flex gap-2">
         <label className="p-1 w-30 font-bold">Full Name</label>
         <input value={username} onChange={(e) => setUsername(e.target.value)} className=" rounded p-1 w-60 lg:w-100 bg-white focus:outline-indigo-600" type="text" />
@@ -88,7 +88,7 @@ function Home() {
           </select>
       </div>
       <div className="flex flex-col gap-2">
-        <label className="p-1 font-bold">why did you apply for this jop?</label>
+        <label className="p-1 font-bold">Why did you apply for this jop?</label>
         <textarea value={description} onChange={(e) => setDescription(e.target.value)} className=" rounded w-60 lg:w-122 bg-white focus:outline-indigo-600"></textarea>
       </div>
       <div className="flex flex-col gap-2">
