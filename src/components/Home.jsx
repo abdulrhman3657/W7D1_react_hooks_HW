@@ -59,7 +59,7 @@ function Home() {
     <h1 className="lg:text-xl font-bold py-3">Staff Engineer - Payments Screening - Riyadh</h1>
 
 
-    <div className="flex flex-col items-start gap-5 bg-gray-200 rounded-xl p-5 lg:w-6/10">
+    <div className="flex flex-col items-start gap-5 bg-gray-200 rounded-xl p-5 lg:w-6/10 shadow-2xl lg:mb-3">
       <div className="flex gap-2">
         <label className="p-1 w-30 font-bold">Full Name</label>
         <input value={username} onChange={(e) => setUsername(e.target.value)} className=" rounded p-1 w-60 lg:w-100 bg-white focus:outline-indigo-600" type="text" />
